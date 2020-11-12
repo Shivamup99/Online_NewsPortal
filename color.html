@@ -1,0 +1,42 @@
+<!doctypehtml>
+<html>
+<head>
+	<style>
+	input{
+        font-size:30px;
+        width:500px;
+        height:60px;
+	}
+</style>
+<script> 
+	function live()
+	{
+	var x=document.getElementById("input").value;
+		var y=document.getElementById("result");
+	y.style.backgroundColor=x;
+   }
+</script>
+</head>
+<body id="result">
+	<center>
+		<h1>It's your color</h1>
+		<input id="input" oninput="live()">
+	</center>
+
+	</body>
+	</html>
+	.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* The dots/bullets/indicators */
+
+.active, .dot:hover {
+  background-color: #717171;
+}

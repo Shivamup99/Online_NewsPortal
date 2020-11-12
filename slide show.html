@@ -1,0 +1,105 @@
+<!doctypehtml>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<style>
+	#container{
+        width:80%;
+        height:450px;
+        border:1px solid gray;
+        margin:0,auto;
+        position:relative;
+	}
+	#container>img{
+		width:100%;
+		height:100%;
+		position:absolute;
+	}
+	#container>.btn{
+		position: absolute;
+		width:50px;
+		height:50px;
+		border:none;
+		border-radius: 25px;
+		top:200px;
+		background-color:black;
+		color:white;
+		font-size:20px;
+	}
+	#contanier>#btn1:hover{
+		box-shadow: 10px 0px 20px 10px black;
+	}
+
+	#contanier>#btn2:hover{
+		box-shadow: 10px 0px 20px 10px black;
+	}
+	#container>#btn2{
+		position:relative;
+		float:right;
+	}
+</style>
+</head>
+<body>
+	<div id="container">
+		<img class="slides" src="slider/13.jpg">
+		<img class="slides" src="slider/12.jpg">
+		<img class="slides" src="slider/11.jpg">
+		<img class="slides" src="slider/10.jpg">
+		<img class="slides" src="slider/9.jpg">
+		<button class="btn" onclick= "PlusIndax(-1)" id="btn1">&#10094;</button>
+		<button class="btn" onclick= "PlusIndax(1)" id="btn2">&#10095;</button>
+	</div>
+	</body>
+	<script>
+		var indax=1;
+		function Plusindax(n){
+			indax=indax+n;
+			showImage(indax);
+		}
+		showImage(1);
+		function showImage(n){
+			var i;
+			var x=document.getElementByClassName("slides");
+			if(n>x.length){indax=1};
+			if(n<1){indax=x.length};
+			for(i=0;i<x.length;i++)
+			{
+				x[i].length.display="none";
+			}
+			x[indax-1].style.display="block";
+		}
+			autoSlides();
+			function autoSlides(){
+			var i;
+			var x=document.getElementByClassName("slides");
+			for(i=0;i<x.length;i++)
+			{
+				x[i].length.display="none";
+			}
+			if(indax>x.length){indax=1}
+			x[indax-1].style.display="block";	
+			indax++;
+			setTimeout(autoSlides,1000);
+		}
+	</script>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

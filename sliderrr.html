@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <title>News</title>
+  <link rel="shortcut icon" href="b1.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!-- It provide glyphicon  --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- It provide glyphicon --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- It provide glyphicon--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    <!const2>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:#F7F9F9;
+      height: 2000px;     
+
+    }
+    *{
+      margin:0px ;
+      text-decoration: none;
+    }
+          #reg{
+        border: white;
+        color: #2269a0;
+        
+      }
+       ul #l{
+        float: left;
+        margin-left:90px;
+        margin-top:25px; 
+        font-size: 18px;
+       }    
+       ul{
+        list-style: none;
+        
+       }   
+       header{
+        border: 5px solid black;
+        background: black;
+        width: 100%;
+        height: 60px;
+        margin-bottom:0px;
+        box-shadow: 0px 2px 5px black;
+        position: fixed;
+       } <!/const2>
+
+       h1{
+        margin-top: 70px;
+        margin-left: 32%;
+        font-family: times;
+       }
+
+        #in{
+          position: absolute;
+          top: 50px; 
+          left: 5px;
+
+          }
+            .sscontainer{
+            	width:600px; 
+            	height:290px;
+            	border: none;
+            	position: relative;
+              margin-top:100px;
+            }
+            img{
+            	position: absolute;
+            	right: 0px;
+            	left: 0px;
+            	top: 0px;
+            	bottom: 0px;
+            }
+            .but{
+            	position: absolute;
+            	top: 50%;
+            	height: 40px;
+            	width: 25px;
+            	background: rgba(0,2,0,0.5);
+            	border: none;
+              cursor: pointer;
+            }
+            .but:hover{
+            	color: white;
+            }
+            #but1{
+            	left: 0px;
+                border-radius:0px 4px 4px 0px;
+                cursor:pointer;
+
+            }
+            #but2{
+            	right:0px;
+            	border-radius:4px 0px 0px 4px;
+                cursor:pointer;   
+            }
+            
+      #g{
+         top:12px;
+         right:100px;
+         display: none;
+      }
+      .ca:hover #g{
+             display:block;
+             background: grey;
+             height: 160px;
+             width: 105px;
+             border:1px solid grey;
+             margin:0px;
+             padding:0px;
+
+           }
+	</style>
+
+
+	<script>
+	var index = 1;
+    showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>4) {index=1};
+          	if (n<1) {index=4};
+          	for (i=0;i<4;i++) {
+                x[i].style.display = "none" ;
+            }}
+
+</script>
+</head>
+<body>
+  </head>
+<body style="height: 1000px">
+<header>
+  <ul>
+    <li id="l"><a href="#" style="text-decoration:none; color:white"><span class="glyphicon glyphicon-home"></span>&nbspHome</a></li>
+    <li id="l"><a href="bus.html" style="text-decoration:none; color:white">business</a></li>
+    <li id="l"><a href="sp.html" style="text-decoration:none; color:white">sports</a></li>
+    <li id="l"><a href="poli.html" style="text-decoration:none; color:white" >politics</a></li>
+    <li id="l"><a href="boll.html" style="text-decoration:none; color:white" >bollywood</a></li>
+     <li id="l"><a href="edu.html" style="text-decoration:none; color:white" >education</a></li>
+     <li id="l" class="ca"><a href="#" style="text-decoration: none; color:white">more</a>
+      <ul id="g"">
+       <li><a href="#">Delhi</a></li>
+       <li><a href="#">Up</a></li>
+       <li><a href="#">Mumbai</a></li>
+       <li><a href="#">Mp</a></li>
+       <li><a href="#">Forest</a></li>
+       <li><a href="#">World</a></li>
+       </ul> 
+
+     </li>
+  </ul>
+</header><br>
+<div id="main2" style="position: fixed; left: 50px"  >
+     <div class="sscontainer">
+     	      <img class="slide" src="slider/1.jpg" height="290px" width="600px">
+     	      <img class="slide" src="slider/3.jpg" height="290px" width="600px">
+     	      <img class="slide" src="slider/4.jpg" height="290px" width="600px"> 
+            <img class="slide" src="slider/5.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/6.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/7.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/8.jpg" height="290px" width="600px"> 
+            <img class="slide" src="slider/9.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/10.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/11.jpg" height="290px" width="600px">
+            <img class="slide" src="slider/12.jpg" height="290px" width="600px">                         
+     	      <button class="but" id="but1" onclick="plusindex(-1)" >&#10094;</button>
+     	      <button class="but" id="but2" onclick="plusindex(1)">&#10095;</button>
+          </div>
+     </div>
+</center>
+</body>
+	<script>
+	var index = 1;
+        function plusindex(n)
+        {
+            index=index+n;
+            showimage(index);
+
+        }
+        showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>11) {index=1};
+          	if (n<1) {index=11};
+          	for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+        x[index-1].style.display = "block";
+         }
+     
+         autoslide();
+        function autoslide()
+        {   var i;
+            var x = document.getElementsByClassName("slide"); 
+            for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+            if(index > x.length) { index=1 }
+            x[index-1].style.display = "block";
+            index++;
+            setTimeout(autoslide,2000);
+        }
+
+        
+</script>
+</html>

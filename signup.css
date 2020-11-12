@@ -1,0 +1,31 @@
+body{
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+	/*background-color: grey;*/
+	background-image: url(signup.jpg);
+}
+#header1{
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	text-align: left;
+	padding-top:0;
+	margin-top: 0;
+	margin-left: 0;
+
+}
+/*#submit{
+	
+	background-color: red;
+}*/
+#username{
+	height: 40px;
+	width: 100px;
+	border-radius: 100px;
+}
+button{
+	background-color: mediumspringgreen;
+}

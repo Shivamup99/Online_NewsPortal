@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="b1.png">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+
+</script>
+
+<title>
+
+Log In
+</title>
+
+<style type="text/css">
+
+#body
+{
+margin:0px;
+}
+
+.container
+{
+
+width:550px;
+
+height:450px;
+
+text-align:center;
+background-color:black;
+
+opacity:0.7;
+
+border-radius:60px;
+
+margin:0 auto;
+margin-top:120px;
+}
+
+.container img
+{
+width:280px;
+
+height:80px;
+margin-top:-80px;
+margin-bottom:50px;
+}
+
+input[type="text"], input[type="password"]
+{
+
+height:50px;
+
+width:320px;
+font-size:18px;
+
+margin-bottom:20px;
+background-color:#fff;
+padding-left:20px;
+}
+
+.btn-login
+{padding:15px;
+
+color:white;
+ 
+background-color:red;
+
+border:none;
+
+        border-radius:30px;
+
+        border-bottom:4px solid red;
+}
+
+
+a{
+  text-decoration:none;
+  color:white;
+
+
+}
+a
+:hover
+{
+      color:white;
+}
+
+</style>
+
+</head>
+
+<body background="72.jpg">
+
+<div class="container">
+
+<img src="75.jpg">
+  
+  <form>
+  
+       <div class="form-input">
+    
+         <input type="text" id="username" placeholder="Username">
+     
+    </div>
+
+         <div class="form-input">
+        
+   <input type="password" id="password" placeholder="Password">
+  
+       </div>
+        
+<button type="button" class="btn-login" onclick="myf()">
+          
+<a href="front.html">Login</a>
+        
+</button>
+    
+</form><br>
+    
+<a>If You Haven't Register <a href="registration_form.html">Click Here</a></a>
+
+<h3>
+<a href="front.html" style="color:red">
+Home Page
+</a>
+</h3>
+</div>
+
+<lower>
+</lowers>
+
+<script>function myf()
+{
+  var username=$('#username').val();
+  var password=$('#password').val();
+
+if(username=='himanshu'&&password=='jain')
+{
+  
+	  window.location.href="user_profile.html";
+}
+
+else
+alert('Wrong Username or Password');
+}
+
+//document.getElementById('username').innerHTMLK   $('#username').val()
+
+</script>
+
+</body>
+
+</html>

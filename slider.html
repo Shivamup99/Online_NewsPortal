@@ -1,0 +1,51 @@
+<!doctypehtml>
+<html>
+<head>
+	<script>
+		setInterval("slider();",1000);
+		var a=1;
+		function slider()
+		{
+			if(a!==12)
+			{
+				document.getElementById("slid_image").src="image"+a".jpg";
+				a++;
+			}
+			else
+			{
+				a=1;
+			}
+		}
+	</script>
+	<style>
+	img{
+		height:300px;
+		width:400px;
+	}
+</style>
+	</head>
+	<body>
+		<img src="image.jpg">
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

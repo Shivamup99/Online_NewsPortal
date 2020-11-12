@@ -1,0 +1,51 @@
+h1{
+	color:green;
+	font-family: <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+}
+body{
+	text-align: center;
+	color: black;
+	background-image: url(blur3.jpeg);
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+	background-size: 100%;
+	font-family: forte;
+	font-size: 18px;
+
+}
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: chiller;
+}
+#vamsi2{
+
+    width: 300px;
+    border: 8px solid chocolate;
+    padding: 25px;
+    margin-left: 38%;
+}
+
+#vamsi{
+	padding-bottom: 5px;
+
+}
+#vamsi4{
+    text-align: center;
+    color: red;
+}
+h2{
+    color: black;
+    font-family: arial;
+}
+#vamsi5{
+    padding-top: 150px;
+}
+

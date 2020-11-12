@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+	<style>
+            .sscontainer{
+            	width:300px; 
+            	height:290px;
+            	border: none;
+            	position: relative;
+            }
+            img{
+            	position: absolute;
+            	right: 0px;
+            	left: 0px;
+            	top: 0px;
+            	bottom: 0px;
+            }
+            .but{
+            	position: absolute;
+            	top: 50%;
+            	height: 40px;
+            	width: 25px;
+            	background: rgba(0,0,0,0.5);
+            	border: none;
+            }
+            .but:hover{
+            	color: white;
+            }
+            #but1{
+            	left: 0px;
+                border-radius:0px 4px 4px 0px;
+                cursor:w-resize;
+
+            }
+            #but2{
+            	right:0px;
+            	border-radius:4px 0px 0px 4px;
+                cursor:e-resize;   
+            }
+	</style>
+
+
+	<script>
+	var index = 1;
+    showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>4) {index=1};
+          	if (n<1) {index=4};
+          	for (i=0;i<4;i++) {
+                x[i].style.display = "none" ;
+            }}
+
+</script>
+</head>
+<body>
+<center>
+     <div class="sscontainer">
+
+  <a href="uu.html"><img  src="slider/1.jpg" width="1000px" height="300px"></a>
+  <a href="go.html"><img src="slider/3.jpg" width="1000px" height="300px"></a>
+  <a href="kartik.html"><img  src="slider/4.jpg" width="1000px" height="300px"></a>
+  <a href="seriya.html"><img src="slider/5.jpg" width="1000px" height="300px"></a>
+  <a href="raid.html"><img src="slider/6.jpg" width="1000px" height="300px"></a>
+  <a href="sri.html"><img  src="slider/7.jpg" width="1000px" height="300px"></a>
+  <a href="power.html"><img src="slider/8.jpg" width="1000px" height="300px"></a>
+
+  <a href="money.html"><img src="slider/9.jpg" width="1000px" height="300px"></a>
+  <a href="arun.html"><img  src="slider/10.jpg" width="1000px" height="300px"></a>
+
+  <a href="lion.html"><img src="slider/11.jpg" width="1000px" height="300px"></a> 
+  <a href="am.html"><img src="slider/12.jpg" width="1000px" height="300px"></a>
+ <a href="bus.html"><img src="slider/13.jpg" width="1000px" height="300px"></a>
+ <a href="sp.html"><img src="slider/14.jpg" width="1000px" height="300px"></a>
+     	      <button class="but" id="but1" onclick="plusindex(-1)" >&#10094;</button>
+     	      <button class="but" id="but2" onclick="plusindex(1)">&#10095;</button>
+     </div>
+   </center>
+</center>
+</body>
+	<script>
+	var index = 1;
+        function plusindex(n)
+        {
+            index=index+n;
+            showimage(index);
+
+        }
+        showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>4) {index=1};
+          	if (n<1) {index=4};
+          	for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+        x[index-1].style.display = "block";
+         }
+     
+         autoslide();
+        function autoslide()
+        {   var i;
+            var x = document.getElementsByClassName("slide"); 
+            for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+            if(index > x.length) { index=1 }
+            x[index-1].style.display = "block";
+            index++;
+            setTimeout(autoslide,2000);
+        }
+
+        
+</script>
+</html>

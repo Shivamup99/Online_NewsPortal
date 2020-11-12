@@ -1,0 +1,105 @@
+﻿<html>
+<head>
+<title>registration form</title>
+<style type="text/css">
+body{
+      background-color:black;
+}
+h1{
+   text-align:center;
+   font-size:50px;
+   color:black;
+}
+form{
+     margin:20px auto;
+     width:320px;
+     color:black;
+}
+input{
+      padding:10px;
+      font-size:inherit;
+}
+input[type="text"]{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+input[type="email"]{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+input[type="password"]{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+.location{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+input[type="text"]{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+input[type="date"]{
+                  display:block;
+                  margin-bottom:25px;
+                  width:100%;
+                  border:2px solid black;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<body>
+  <div class="container">
+    <div class="well well-lg">
+      <h1>Register For Our Newsletter</h1>
+      <form>
+
+           <input type="text" class="form-control" placeholder="First Name">
+           <input type="text" class="form-control" placeholder="Last Name">
+           <input type="email" class="form-control" placeholder="Email">
+
+          <p class="location">
+             <select name="location" class="form-control">
+                <option value="apple"><b>Choose your Country code</b></option>
+                <option value="banana">India</option>
+                <option value="mango">Zimbabwe</option>
+                <option value="pineapple">USA</option>
+                <option value="carrot">China</option>
+                <option value="chocolate">Japan</option>
+                <option value="dosa">Indonesia</option>
+           </select>
+          </p>
+           <input type="text" class="form-control" placeholder="Contact Number">
+           <input type="date"  class="form-control" name="dob">
+           <input type="password" class="form-control" placeholder="Password">
+           <input type="password" class="form-control" placeholder="confirm password">
+
+           <div>
+               
+           </div>
+        <button type="button"
+         class="btn btn-block btn-primary"
+          name="button"
+          onclick="registreme()">
+        Click here To Submit
+      </button>
+</form>
+</div>
+</div>
+<script>
+function registreme(){
+  alert("Thank you, You Have Registered to Our Newslatter");
+  window.location.href = 'front.html'; 
+}
+</script>
+</body>
+</html>

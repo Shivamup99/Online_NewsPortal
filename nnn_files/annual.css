@@ -1,0 +1,134 @@
+.btn-card,
+a.btn-card {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: #01c7e2;
+    border: 2px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-card:hover,
+.btn-card:focus,
+a.btn-card:hover,
+a.btn-card:focus {
+    font-weight: 400;
+    color: rgba(255, 255, 255, .85);
+    background: #01c7e2;
+    text-decoration: none;
+    outline: none;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-card:active {
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+.btn-card.btn-small {
+    height: auto;
+    padding: 6px 17px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.btn-card.btn-border {
+    color: #151515;
+    border: 2px solid #01c7e2;
+    background: transparent;
+}
+
+.btn-card.btn-border:hover,
+.btn-card.btn-border:focus {
+    color: #fff;
+    border-color: transparent;
+    background: #01c7e2;
+}
+
+.btn-card.btn-medium {
+    height: auto;
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 4px;margin-bottom:10px;
+}
+.btn-card.btn-border {
+    color: #151515;
+    border: 2px solid #01c7e2;
+    background: transparent;
+}
+
+.btn-card.btn-border:hover,
+.btn-card.btn-border:focus {
+    color: #fff;
+    border-color: transparent;
+    background: #01c7e2;
+}
+
+.btn-card.btn-medium {
+    height: auto;
+    padding: 8px 21px;
+    font-size: 15px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+
+
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 160px;
+    color: #01c7e2;
+    border: 1px solid #01c7e2;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    margin: 10px 0px 20px 0px;
+    background-color: #fff;
+}
+
+.nav-pills {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color: #01c7e2;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_a {
+    color: #01c7e2;
+}
+
+.ourservice_speacialneed_li {
+    width: 80%;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    margin-left: 5px;
+}

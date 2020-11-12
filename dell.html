@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<link rel="shortcut icon" href="b1.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!-- It provide glyphicon  --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- It provide glyphicon --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- It provide glyphicon--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    <!const2>
+    body {
+    	margin: 0;
+    	padding: 0;
+    	background-color:#F7F9F9;
+    	height: 2000px;			
+
+    }
+    *{
+    	margin:0px ;
+    	text-decoration: none;
+    }
+        	#reg{
+    		border: white;
+    		color: #2269a0;
+    		
+    	}
+       li{
+       	float: left;
+       	margin-left:90px;
+       	margin-top:25px; 
+       	font-size: 18px;
+       }    
+       ul{
+       	list-style: none;
+       	
+       }   
+       header{
+       	border: 5px solid black;
+       	background: black;
+       	width: 100%;
+       	height: 60px;
+       	margin-bottom:0px;
+       	box-shadow: 0px 2px 5px green;
+       	position: fixed;
+       } <!/const2>
+
+
+
+
+
+
+
+       h1{
+       	margin-top: 70px;
+       	margin-left: 32%;
+       	font-family: times;
+       }
+
+
+       #main2{
+       	height: 2900px;
+       	width: 1000px;
+       	background: white;
+       	float: left;
+        margin-top:5px;
+        margin-left:355px;
+       }
+
+       #main1{
+       	height: 9000px;
+       	width: 350px;
+       	position: fixed;
+       	background: black;
+       	float:left;
+        top:62px;
+
+       	}
+       	#main21{
+       		float:right;
+          height: 2000px;
+          margin-left: 4px;
+          margin-top:50px;
+          position: fixed;
+
+       	}
+       	#in{
+       		position: absolute;
+       		top: 50px; 
+       		left: 5px;
+         	}
+       	td{
+       		font-size: 25px;
+       		color: black;
+       		margin-bottom: 15px;
+       	    margin-left: 14px;
+
+       	}
+       	th{
+       		font-size: x-large;
+       		margin-bottom:20px;
+       		border: 1px solid black;
+       		background: white;
+       		margin-left: 14px;
+        }
+       	table{
+       		border:1px solid black;
+       		width: 300px;
+       		margin-bottom: 40px;
+       		border-collapse: collapse;
+        }
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+.but{
+              position: absolute;
+              top: 50%;
+              height: 40px;
+              width: 25px;
+              background: rgba(0,0,0,0.5);
+              border: none;
+            }
+            .but:hover{
+              color: white;
+            }
+            #but1{
+              left: 0px;
+                border-radius:0px 4px 4px 0px;
+                cursor:w-resize;
+
+            }
+            #but2{
+              right:0px;
+              border-radius:4px 0px 0px 4px;
+                cursor:e-resize;   
+            }
+
+/* Caption text */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+  from {display: block;} 
+  to {margin: 0;}
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+  to {opacity: 1}
+}
+        
+        <!/const>
+
+
+  <script>
+  var index = 1;
+    showSlides(1);
+  function showSlides(n) {
+      var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n>4) {index=1};
+            if (n<1) {index=4};
+            for (i=0;i<17;i++) {
+                x[i].style.display = "none" ;
+            }}
+
+</script>
+	</style>
+</head>
+<body style="height: 1000px">
+<header>
+  <ul>
+    <li><a href="#" style="text-decoration:none; color:white"><span class="glyphicon glyphicon-home"></span>&nbspHome</a></li>
+    <li><a href="bus.html" style="text-decoration:none; color:white">business</a></li>
+    <li id="reg"><a href="sp.html" style="text-decoration:none; color:white">sports</a></li>
+    <li><a href="poli.html" style="text-decoration:none; color:white" >politics</a></li>
+    <li><a href="boll.html" style="text-decoration:none; color:white" >bollywood</a></li>
+     <li><a href="edu.html" style="text-decoration:none; color:white" >education</a></li>
+     <li><a href="#" style="text-decoration:none; color:white">more</a></li>
+
+  </ul>
+<br>
+<br></header> 
+<!--/constant-->
+<!--center vala-->
+<div id="main2" >
+  <div id="main21" style="height: 1000px">
+                          <br>
+           <div style="margin-top: 10px">
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div><a href="uu.html"><img  src="slider/1.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+ <div><a href="go.html"><img src="slider/3.jpg" width="700px" height="300px"></a></div> 
+  </div>
+  <div class="mySlides fade">
+    <div><a href="kartik.html"><img  src="slider/4.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+    <div><a href="seriya.html"><img src="slider/5.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+ <div><a href="raid.html"><img src="slider/6.jpg" width="700px" height="300px"></a></div> 
+  </div>
+  <div class="mySlides fade">
+    <div><a href="sri.html"><img  src="slider/7.jpg" width="700px" height="300px"></a></div> 
+  </div>
+<div class="mySlides fade">
+    <div><a href="power.html"><img src="slider/8.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+ <div><a href="money.html"><img src="slider/9.jpg" width="700px" height="300px"></a></div> 
+  </div>
+  <div class="mySlides fade">
+    <div><a href="arun.html"><img  src="slider/10.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+    <div><a href="lion.html"><img src="slider/11.jpg" width="700px" height="300px"></a></div> 
+  </div>
+  <div class="mySlides fade">
+ <div><a href="am.html"><img src="slider/12.jpg" width="700px" height="300px"></a></div> 
+  </div>
+  <div class="mySlides fade">
+    <div><a href="bus.html"><img src="slider/13.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+  <div class="mySlides fade">
+ <div><a href="sp.html"><img src="slider/14.jpg" width="700px" height="300px"></a></div> 
+  </div>
+
+     <button class="but" id="but1" onclick="plusindex(-1)" >&#10094;</button>
+            <button class="but" id="but2" onclick="plusindex(1)">&#10095;</button>
+</div>
+<br>
+  </div></a></div></div></div></div></div>
+</body>
+
+  <script>
+  var index = 1;
+        function plusSlides(n)
+        {
+            index=index+n;
+            plusSlides(index);
+
+        }
+        showSlides(1);
+  function showSlides(n) {
+      var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n>17) {index=1};
+            if (n<1) {index=17};
+            for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+            } 
+        x[index-1].style.display = "block";
+         }
+     
+         autoslide();
+        function autoslide()
+        {   var i;
+            var x = document.getElementsByClassName("mySlides"); 
+            for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+            } 
+            if(index > x.length) { index=1 }
+            x[index-1].style.display = "block";
+            index++;
+            setTimeout(autoslide,2000);
+        }
+
+        
+</script>
+</html>

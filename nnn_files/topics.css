@@ -1,0 +1,29 @@
+.boxRound.cp2 li {
+    border-bottom: 1px dotted white;
+	    padding: 7px 5px;
+}
+
+
+
+.fa-file-pdf-o:before {
+	color: #000 !important;
+}
+
+.fa-file-pdf-o a{
+	color: #4347fe !important;
+}
+
+.downloadtext
+{
+	    margin-left: 10px;
+		color: #0099cc;
+}
+
+/*.innerpages .sidebar .cpGray .sideLink .active a {
+    color: #4347fe  !important;
+}
+
+.innerpages .sidebar .cpGray .sideLink_sub .active1 a {
+    color: #4347fe  !important;
+}
+*/

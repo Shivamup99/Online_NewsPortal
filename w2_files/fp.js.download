@@ -1,0 +1,4 @@
+/* ads */
+googletag.cmd.push(function() {
+	googletag.pubads().refresh();
+});

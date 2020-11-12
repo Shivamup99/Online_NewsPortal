@@ -1,0 +1,76 @@
+/* Team Member Details Sidebar*/
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.pt-75 {
+    padding-top: 75px;
+}
+.pt-85{
+    padding-top: 85px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.team-mail {
+    color: #222 !important;
+}
+
+.team-mail:hover{
+    color: #01c7e2 !important;
+}
+.socialIcon{
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.fsocialFeed a {
+    width: 2.4rem;
+    height: 2.4rem;
+    text-align: center;
+    line-height: 2.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: rgba(35, 33, 33, 0.85);
+    color: #fff;
+    margin: 0 0.3rem 0 0;
+    display: inline-block;
+}
+
+.socialIcon .fsocialFeed a:hover, .socialIcon .fsocialFeed a:focus {
+    background: #01c7e2;
+    color: #fff;
+}
+
+.inline-lin span {
+    background: #fff none repeat scroll 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 0 7px;
+    position: relative;
+    color: #01c7e2;
+    top: 17px;
+    letter-spacing: 5px;
+}
+.inline-lin {
+    text-align: center;
+    border-bottom: 1px solid #dbaf68;
+    display: block;
+    margin-bottom: 60px;
+}
+.round {
+    border-radius: 50%;
+}

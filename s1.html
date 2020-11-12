@@ -1,0 +1,73 @@
+<Idoctypehtml>
+  <html>
+  <body>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 10px;
+  margin: 3px 0 12px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+</style>
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h2>Sign Up</h2>
+
+    <label for="name"><b></b></label>
+    <input type="text" placeholder="Name" name="name" required>
+
+    <label for="psw"><b></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="email"><b></b></label>
+    <input type="text" placeholder="Email" name="Email" required>
+    <label for="contact"><b></b></label>
+    <input type="text" placeholder="Contact" name="Contact" required>
+    <label for="city"><b></b></label>
+    <input type="text" placeholder="City" name="City" required>
+    <label for="address"><b></b></label>
+    <input type="text" placeholder="address" name="address" required>
+
+
+
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Submit</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

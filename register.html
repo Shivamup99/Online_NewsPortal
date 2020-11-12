@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page and registration form</title>
+	<link  rel="stylesheet" type="text/css"  href="csstyle.css">
+</head>
+<style>
+    #sub
+{
+    background-color:powderblue;
+}
+</style>
+	</head>
+<script>
+ function abc(a)
+{
+ var e=a.firstname.value.length;
+ var f=a.lastname.value.length;
+ var b=a.username.value.length;
+ var c=a.password.value.length;
+ var g=a.confirmpassword.value.length;
+ var d=a.username.value;
+if(e==0)
+{
+alert("First name should not be empty");
+return;
+} 
+if(f==0)
+{
+alert("Last name should not be empty");
+return;
+}
+ if(b==0||c==0)
+{
+  alert("User-name and password should not be Empty");
+  return;
+}
+if(c>=12||c<6)
+{
+ alert("length of password should be between 6 to 12");
+ return;
+}
+var str=d.slice(0,1);
+if(str=="_" || str=="@"|| str=="," ||str=="&"||str=="#"|| str=="!"||str==0||str==1||str==2||str==3||str==4||str==5||str==6||str==7||str==8||str==9)
+{
+	alert("Username should not start with @ # , & ! _ and number");
+	return;
+}
+if(c!=g)
+{
+*alert("Password doesn't match with previous");
+return;
+}
+
+}
+</script>
+<body background="five.jpg">
+
+<div class="Login-Page">
+<div class="form">
+	<form class="register-form" id="f" method="post">
+		<input type="text" placeholder="First-name" name="firstname">
+		<input type="text" placeholder="Last-name" name="lastname">
+		<input type="text" placeholder="user-name"  name="username">
+		<input type="password" placeholder="Password" name="password">
+		<input type="password" placeholder="Confirm Password" name="confirmpassword">
+		<input type="text" placeholder="Email id">
+		<input type="submit" value="Sign-up" onClick="abc(this.form)" id="sub">
+	<h4 style="color:red;"><font size="5px">already registered?</font></h4>	<a href="loginpage" style="text-decoration: none;"><p style="width:80px;height: 20px;background-color:black;border: 1px solid black;border-radius: 10px;float: center;margin-right: 10px;cursor: e-resize; color:white;">
+                <bold>login</bold></a> 
+</div>
+</body>
+</html>

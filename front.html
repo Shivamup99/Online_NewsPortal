@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <title>News</title>
+  <link rel="shortcut icon" href="b1.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!-- It provide glyphicon  --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- It provide glyphicon --> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- It provide glyphicon--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+    body{
+      background-color: #FEFCFF;
+    }
+   
+    ul{
+    	margin:0px;
+    	padding:0px;
+
+    }
+    ul li{
+    	background-color: black;
+    	width:192px;
+    	height:50px;
+    	line-height: 50px;
+      float:left;
+      text-align: center;
+    	border:1px solid #fcdfff;
+    	text-align: center;
+    	list-style: none;
+
+
+    }
+    ul li a{
+    	color: white;
+    	text-decoration: none;
+    	display: block;
+    }
+    ul li a:hover{
+    	background-color: #990012;
+    	height: 50px;
+    }
+    ul li ul {
+    	display: none;
+    }
+    ul li:hover ul {
+    	display: block;
+    }
+    
+
+            .sscontainer{
+            	width:580px; 
+            	height:290px;
+              margin-top: 120px;
+              float: left;
+              margin-left: 10px;
+            	
+            }
+            img{
+               
+            	right: 0px;
+            	left: 0px;
+            	top: 0px;
+            	bottom: 0px;
+            }
+            .but{
+              position: absolute;
+            	height: 50px;
+            	width: 25px;
+            	background: rgba(0,2,0,0.5);
+            	border: none;
+              cursor: pointer;
+            }
+            .but:hover{
+            	color: white;
+            }
+            #but1{
+                border-radius:0px 4px 4px 0px;
+                cursor:pointer;
+                margin-top: -170px;
+            }
+            #but2{
+            	right:758px;
+            	border-radius:4px 0px 0px 4px;
+              cursor:pointer;  
+              margin-top: -170px; 
+            }
+            h1{
+            	color:#990012;
+            	float:left;
+            	margin-left:-490px;
+            	margin-top:80px;
+            }
+
+            #a3{
+            	float:left;
+            	margin-left:630px;
+            	margin-top:140px;
+            	box-shadow: 2px 2px 2px;
+            }
+            #gau{
+            	float:left;
+            	margin-left:630px;
+            	margin-top:10px;
+
+            }
+            #a1{
+            	float:left;
+            	margin-left:1040px;
+            	margin-top:-310px;
+              
+            	
+            }
+            #a2{
+
+            	float:left;
+            	margin-left:1030px;
+            	margin-top:-110px;
+            }
+          
+           
+
+            .gp{
+            }
+           #ous{
+           	  box-shadow: 2px 2px 2px;
+           	   width:300px;
+           	   height:200px;
+           	   float:left;
+           	   margin-left: 20px;
+           	   top:300px;
+           }
+           #ous2{
+                 box-shadow: 2px 2px 2px;
+               width:200px;
+               height:220px;
+               float:left;
+               margin-left: 1120px;
+               margin-top:-210px;   
+           }
+           #oas{
+                box-shadow: 2px 2px 2px;
+               width:300px;
+               height:200px;
+               float:left;
+               margin-top:0px;
+               margin-left: 100px;
+           }
+           #oas1{
+               box-shadow: 2px 2px 2px;
+               width:300px;
+               height:210px;
+               float:left;
+               margin-top:-200px;
+               margin-left: 800px;
+           }
+           #b{
+            float:left;
+            margin-left: -1100px;
+           }
+           #oas2{
+                  box-shadow: 2px 2px 2px;
+               width:500px;
+               height:310px;
+               float:right;
+               margin-top:20px;
+               margin-right: 840px;
+           }
+           #oas3{
+                box-shadow: 2px 2px 2px;
+               width:300px;
+               height:200px;
+               float:left;
+               margin-top:-310px;
+               margin-left: 640px;
+           }
+           #oas4{
+                box-shadow: 2px 2px 2px;
+               width:300px;
+               height:200px;
+               float:left;
+               margin-top:-310px;
+               margin-left: 1000px;
+           }
+           #b1{
+               float:right;
+            margin-right: 1200px;
+           
+           } 
+           #oas5{
+                
+              box-shadow: 2px 2px 2px;
+               width:500px;
+               height:300px;
+               float:left;
+               margin-left: 20px;
+           }
+           #oas6{
+                
+                box-shadow: 2px 2px 2px;
+               width:500px;
+               height:300px;
+               float:left;
+               margin-left: 50px;
+           }
+           #oas7{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:400px;
+               float:left;
+               margin-left: 1130px;
+               margin-top:-300px;
+           }
+           #b2{
+               float:right;
+               margin-right: 1100px;
+               margin-top:-60px;
+           }
+           #oas8{
+                 
+               box-shadow: 2px 2px 2px;
+               width:200px;
+               height:400px;
+               float:left;
+               margin-left: 60px;
+               margin-top:0px;
+           }
+           #oas9{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:400px;
+               float:left;
+               margin-left: 80px;
+               margin-top:0px;
+           }
+           #saa{
+                 
+               box-shadow: 2px 2px 2px;
+               width:200px;
+               height:400px;
+               float:left;
+               margin-left: 80px;
+               margin-top:0px;
+           }
+           #saa1{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:400px;
+               float:left;
+               margin-left: 80px;
+               margin-top:0px;
+           }
+           #saa2{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:300px;
+               float:left;
+               margin-left: 1125px;
+               margin-top:-300px;
+           }
+           #saa3{
+                 
+                box-shadow: 2px 2px 2px;
+               width:402px;
+               height:300px;
+               float:left;
+               margin-left: 60px;
+               margin-top:0px;
+           }
+           #b3{
+               float:right;
+               margin-right: 1160px;
+               margin-top:0px;
+           }
+           #saa4{
+                 
+                box-shadow: 2px 2px 2px;
+               width:402px;
+               height:300px;
+               float:left;
+               margin-left: 40px;
+               margin-top:0px;
+           }
+            #saa5{
+                 
+              box-shadow: 2px 2px 2px;
+               width:400px;
+               height:300px;
+               float:left;
+               margin-left: 940px;
+               margin-top:-300px;
+           }
+           #b4{
+               float:right;
+               margin-right: 1150px;
+               margin-top:0px;
+           }
+           #saa6{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 50px;
+               margin-top:0px;
+           }
+           #saa7{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 70px;
+               margin-top:0px;
+           }
+           #saa8{
+                 
+               box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 90px;
+               margin-top:0px;
+           }
+            
+           #saa9{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 85px;
+               margin-top:0px;
+           }
+
+           #saa11{
+                 
+              box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 1140px;
+               margin-top:-360px;
+           }
+           #b5{
+             float:right;
+               margin-right: 1150px;
+               margin-top:0px;
+           }
+
+           #saa12{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 50px;
+               margin-top:0px;
+           }
+           #saa13{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 70px;
+               margin-top:0px;
+           }
+           #saa14{
+                 
+               box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left: 90px;
+               margin-top:0px;
+           }
+           #saa15{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left:60px;
+               margin-top:0px;
+           }
+            #saa16{
+                 
+                box-shadow: 2px 2px 2px;
+               width:200px;
+               height:360px;
+               float:left;
+               margin-left:1140px;
+               margin-top:-360px;
+           }
+           #foot{
+                 width:100%;
+                 height:150px;
+                 background-color:grey;
+                 position: absolute;
+                 top:3250px;
+                 
+
+
+           }
+           table{
+            margin-top: 10px;
+           }
+       
+       
+       td{
+        font-size: 18px;
+        color:white;
+       }
+       #ak:hover{
+        text-decoration: none;
+        color: #990012;
+       }
+       #ak{
+        color: white;
+       }
+       
+</style>
+
+
+	<script>
+	var index = 1;
+    showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>4) {index=1};
+          	if (n<1) {index=4};
+          	for (i=0;i<4;i++) {
+                x[i].style.display = "none" ;
+            }}
+
+</script>
+</head>
+    <body>
+      <div style="height: 50px;width: 100%; background:yellow border: none;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;">
+   <ul>;
+    <li id="l" style="background:#990012;"><a href="#" style="text-decoration:none; color:white;cursor:not-allowed; "><span class="glyphicon glyphicon-home"></span>&nbspHome</a></li>
+    <li id="l"><a href="bus.html" style="text-decoration:none; color:white">business</a></li>
+        <li id="l"><a href="poli.html" style="text-decoration:none; color:white" >politics</a></li>
+
+    <li id="l"><a href="sp.html" style="text-decoration:none; color:white">sports</a>
+      <ul id="g">
+       <li><a href="sp.html" style="text-decoration:none; color:white">sports</a></li>
+       <li><a href="icc.html" style="text-decoration:none; color:white">IPL:2018</a></li>
+   </ul>
+    </li>
+    <li id="l"><a href="boll.html" style="text-decoration:none; color:white" >bollywood</a></li>
+     <li id="l"><a href="edu.html" style="text-decoration:none; color:white" >education</a></li>
+     <li id="l" class="ca"><a href="#" style="text-decoration: none; color:white">more</a>
+      <ul id="g" class="gp">
+       <li><a href ="deli.html" style="text-decoration: none; color:white">Delhi</a></li>
+       <li><a href="upp.html" style="text-decoration: none; color:white">Up</a></li>
+       <li><a href="mu.html" style="text-decoration: none; color:white">Mumbai</a></li>
+       <li><a href="mp.html" style="text-decoration: none; color:white">Mp</a></li>
+       <li><a href="wor.html" style="text-decoration: none; color:white">World</a></li>
+       <li><a href="hima1.html" style="text-decoration: none; color:white">Sign-up</a></li>
+       <li><a href="hima.html" style="text-decoration: none; color:white">login</a></li>
+
+       </ul> 
+
+     </li>
+  </ul>
+</div>
+     <div class="sscontainer">
+     	      <a href="uu.html"><img class="slide" src="slider/1.jpg" height="290px" width="580px"></a>
+     	      <a href="go.html"><img class="slide" src="slider/3.jpg" height="290px" width="580px"></a>
+     	      <a href="kartik.html"><img class="slide" src="slider/4.jpg" height="290px" width="580px"> </a>
+            <a href="seriya.html"><img class="slide" src="slider/5.jpg" height="290px" width="580px"></a>
+            <a href="raid.html"><img class="slide" src="slider/6.jpg" height="290px" width="580px"></a>
+            <a href="sri.html"><img class="slide" src="slider/7.jpg" height="290px" width="580px"></a>
+            <a href="power.html"><img class="slide" src="slider/8.jpg" height="290px" width="580px"></a> 
+            <a href="money.html"><img class="slide" src="slider/9.jpg" height="290px" width="580px"></a>
+            <a href="arun.html"><img class="slide" src="slider/10.jpg" height="290px" width="580px"></a>
+            <a href="lion.html"><img class="slide" src="slider/11.jpg" height="290px" width="580px"></a>
+            <a href="am.html"><img class="slide" src="slider/12.jpg" height="290px" width="580px">  </a>
+            <a href="bus.html"><img class="slide" src="slider/13.jpg" height="290px" width="580px"></a>
+            <a href="sp.html"><img class="slide" src="slider/14.jpg" height="290px" width="580px">  </a>                       
+     	      <button class="but" id="but1" onclick="plusindex(-1)" >&#10094;</button>
+     	      <button class="but" id="but2" onclick="plusindex(1)">&#10095;</button>
+          </div>
+     </div>
+     
+     <h1 style="margin-top: 70px; margin-left:250px; float: left;"><font face="verdana" size="5px">latest news</font></h1>
+     <div id="a3" style="float: left; margin-top:-210px">
+     	<a href="aa.html" style="text-decoration: none; color:white;float: left;"><img src="m1.jpg" width="300px" height="200px"></a></div>
+     	<div id="gau">
+     	<font face="verdana" size="3px"><span>Mark Zuckerberg faced the lawmakers<br> as part of the House Committeehearing<br> regarding data protection and privacy of<br> its users for the second day in a row.</span></font></div>
+     	<div id="a1">
+          <p><a href="aa1.html" style="text-decoration: none; color:white"><img src="m2.jpg" width="300px" height="200px"></a></p></div>
+          <div id="a2">
+          	<font face="verdana" size="3px"><span>The Karnataka government on Thursday<br> inaugurated the first phase of <br>a 2,000 megawatts (MW) solar park<br> in the drought-prone Pavagada region of ....<br></span></font></div>
+  
+  <div id="ous" >
+  <a href="ri.html" style="text-decoration: none; "><img src=" k1.jpg" width="298px" height="140px">
+  Delhi: IIT student ends life, note speaks of ‘abuse’ Police said his one-page suicide note reveals he was suffering from depression over...</a>
+	</div>
+  <div id="oas">
+    <a href="ri1.html" style="text-decoration: none; "><img src="op.jpg" width="298px" height="140px">
+    Commonwealth Games 2018: Sanjeev Rajput sets new CWG record to claim gold in 50m rifle 3 position...</a>
+  </div>
+  <div id="oas1">
+    <a href="ri2.html" style="text-decoration: none; "><img src="po2.jpg" width="298px" height="140px">
+    Kathua, Unnao rape cases: Narendra Modi's statement and sacking of BJP ministers send the right message.Some may say he could ..</a></div>
+    <div id="ous2">
+      <a href="ri2.html" style="text-decoration: none; "><img src="kak.jpg" width="198px" height="160px">
+        UP CM Yogi Adityanath honoured with title of 'Dalit Mitra'</a></div>
+
+
+    </div>
+    <div id="b">
+    <h2 style="color:#990012"><i>Tech</i></h2>
+  </div>
+   <div id="oas2">
+    <a href="k1.html" style="text-decoration: none; "><img src="u1.jpg" width="498px" height="190px">
+    From the tweet above it is not clear if the Chinese telecom giant will be launching the Huawei P20, P20 Pro or both the devices. The animation does show a DSLR which transforms into a smartphone silhouette but without giving away much.
+
+As of now, we do not know the exact dates when the company plans to launch the device in India. According to GSMArena, it will most likely be the last week of April...</a>
+
+
+   </div>
+   <div id="oas3">
+    <a href="k1.html" style="text-decoration: none;">
+    <img src="u2.jpg" width="298px" height="140px">
+
+Apple is reportedly working on a gold-colour variant of premium iPhone X as seen in recent photos published by ....</a>
+   </div>
+
+   <div id="oas4">
+    <a href="k1.html" style="text-decoration: none;">
+    <img src="u4.jpg" width="298px" height="140px">Canon EOS M50 mirrorless compact has been launched for the Indian market at Rs 61,995, features 4K movie recording..</a></div>
+    <div id="b1">
+     <h2 style="color:#990012"><i>World</i></h2>
+   </div>
+
+   <div id="oas5">
+    <a href="k3.html" style="text-decoration: none;">
+      <img src="u7.jpg" width="498px" height="200px">
+      US, its allies strike Damascus after Donald Trump orders attack over Syria's use of chemical weapons Loud explosions rocked Syria's capital and filled the sky with heavy smoke early on Saturday after US president Donald Trump announced airstrikes in retaliation for the country's alleged use of chemical weapons. ...
+      </a></div>
+      <div id="oas6">
+        <a href="k3.html" style="text-decoration: none;">
+        <img src="u8.jpg" width="498px" height="235px">
+        United Nations puts Myanmar's armed forces on blacklist for sexual violence against Rohingya Muslims A new UN report puts Myanmar's armed forces on a UN blacklist of government and rebel groups ...
+      </div></a>
+      <div id="oas7">
+        
+        <a href="k3.html" style="text-decoration: none;">
+        <img src="u9.jpg" width="198px" height="235px">
+        India must be wary of Chinese threat via Nepal; ignoring Beijing's intelligence infiltration is at New Delhi's own peril
+        Nepalese prime minister KP Sharma Oli's recent India visit is being hailed as a new leaf in India-Nepalese relations;..
+      </a></div>
+      <div id="b2">
+     <h2 style="color:#990012"><i> Entertainment</i></h2>
+   </div>
+   <div id="oas8">
+    <a href="k4.html" style="text-decoration: none;">
+    <img src="ja1.jpg" width="198" height="150">
+    Pankaj Tripathi on his National Award win: Twenty years back, a village kid dreamt of getting an award for acting
+Pankaj Tripathi won a Special Mention at the 65th National Film Awards for his performance in Newton. The actor, who is shooting in Lucknow, told indianexpress.com how Saurabh Shukla revealed the big news to him...
+   </div></a>
+   <div id="oas9">
+   <a href="k4.html" style="text-decoration: none;">
+    <img src="ja2.jpg" width="198" height="160">
+    October box office collection day 1: The Varun Dhawan starrer mints Rs 5.04 crore
+October box office collection day 1: The Varun Dhawan starrer mints Rs 5.04 crore on its opening day. The film, which has been directed by Shoojit Sircar, stars newcomer Banita Sandhu and Geetanjali Rao in pivotal roles..
+    </a></div>
+    <div id="saa">
+
+   <a href="k4.html" style="text-decoration: none;">
+    <img src="ja3.jpg" width="198" height="160">
+    Expresso, Episode 12: There’s a lot of beauty in ageing gracefully. I don’t think your aim has to be to look younger, says Rani Mukerji
+Rani Mukerji on being back before the arc lights, motherhood, husband Aditya Chopra’s invaluable advice and why heroines must thank their mothers Rani Mukerji turned a proud 40 this March....
+</a></div>
+
+    <div id="saa1">
+
+   <a href="k4.html" style="text-decoration: none;">
+    <img src="ja4.jpg" width="198" height="160">
+
+The Language of Cinema
+Movies made in Assam are going to the Cannes Film Festival,” said filmmaker Shekhar Kapur in his opening address at a press meet to announce the winners of the 65th National Film Awards in Delhi.I quit making Hindi films after Bandit Queen because the quality of films made here was very bad...
+  </a></div>
+  <div id="saa2">
+
+   <a href="k4.html" style="text-decoration: none;">
+    <img src="ja7.jpg" width="198" height="160">
+
+Shah Rukh Khan’s TED Talks India Nayi Soch renewed for three seasons 
+Hosted by Shah Rukh Khan, TED Talks India Nayi Soch has been renewed for three more seasons. The debut season drew ...
+  </a></div>
+<div id="b3">
+     <h2 style="color:#990012"><i>Science</i></h2>
+   </div>
+  <div id="saa3">
+
+   <a href="k5.html" style="text-decoration: none;">
+    <img src="ka1.jpg" width="400" height="170">
+    When organisms change during the course of evolution, often what drives new forms is not genes themselves, but gene regulation -- what turns genes on and off. A new study identifies the kind of gene regulation most likely to generate evolutionary change Most modern organisms store genetic information in DNA and transcribe the information....
+  </a></div>
+  <div id="saa4">
+
+   <a href="k5.html" style="text-decoration: none;">
+    <img src="ka2.jpg" width="400" height="170">More than half a kilometre beneath the Devon Ice Cap, scientists discovered two lakes whose extreme saltiness could make them a habitat for microbes--an environment that might also exist on Jupiter's icy moon Europa.An analysis of radar data led scientists to an unexpected discovery of two lakes located beneath 550 to 750 metres...
+  </a>
+</div>
+<div id="saa5">
+   <a href="k5.html" style="text-decoration: none;">
+    <img src="ka3.jpg" width="400" height="170">
+    3-D printed active metamaterials for sound and vibration control Researchers have been pushing the capabilities of materials by carefully designing precise structures that exhibit abnormal properties that can control acoustic or optical waves. However, these metamaterials are constructed in fixed geometries, meaning their unique abilities are always fixed...
+   </a></div>
+   <div id="b4">
+     <h2 style="color:#990012"><i>Top Stories</i></h2>
+   </div>
+
+<div id="saa6">
+   <a href="k6.html" style="text-decoration: none;">
+    <img src="ka4.jpg" width="198" height="170">Champions League: Criticism of Real Madrid's win over Juventus is 'disgraceful, upsetting and deceptive', says Zinedine Zidane Zinedine Zidane believes the negative reaction to Real Madrid's last-gasp win over Juventus has been "disgraceful, upsetting ...</a></div>
+    <div id="saa7">
+   <a href="k7.html" style="text-decoration: none;">
+    <img src="ka5.jpg" width="198" height="170">"You're Lucky": Gangster Brags On Facebook After Shooting Punjabi Singer Parmish Verma sent his bodyguard home, which is when he was shot in the leg by assailants. Mr Verma's friend was injured from the shooting too.Punjabi singer Parmish Verma was shot by  ....</a></div>
+    <div id="saa8">
+   <a href="k7.html" style="text-decoration: none;">
+    <img src="ka6.jpg" width="198" height="170">Punjab: CM Amarinder Singh launches loan waiver scheme for SCs, other poor
+“Our government has put all efforts so that the SC/ST Act’s provisions are not diluted. I also urge the Congress MPs from the state to take up this matter in Parliament,”...</a></div>
+   
+<div id="saa9">
+   <a href="k8.html" style="text-decoration: none;">
+    <img src="ka11.jpg" width="198" height="170">IAS toppers Tina Dabi-Athar Amir Khan’s Delhi reception: Vice-President Naidu, Lok Sabha Speaker bless couple, see pic
+After creating a flutter with their wedding, IAS couple Tina Dabi and Athar Amir Khan hosted a grand wedding reception in Delhi on Saturday.</a></div>
+<div id="saa11">
+  <a href="k8.html" style="text-decoration: none;">
+    <img src="ka8.jpg" width="198" height="170">After Uddhav’s threat to CM, MNS chief promises support to farmers opposing the Rs 3-trillion project in Ratnagiri.
+
+Could the warring Thackeray cousins find common ground in the Nanar refinery project? Farmers from villages where the Rs 3-trillion refinery...</a></div>
+
+<div id="b5">
+     <h2 style="color:#990012"><i>IPL:2018</i></h2>
+   </div>
+   <div id="saa12">
+  <a href="k11.html" style="text-decoration: none;">
+    <img src="ip1.jpg" width="198" height="170">Indian Premier League 2018: Jason Roy Takes Delhi Daredevils Home In Last-Ball Thriller Against Mumbai Indians Jason Roy made the mockery of a listless Mumbai Indians his 53-ball knock to help Delhi Daredevils overhaul the home team's 194/7 ..
+  </a>
+</div>
+<div id="saa13">
+  <a href="k11.html" style="text-decoration: none;">
+    <img src="ip2.jpg" width="198" height="180">
+    Chennai Super Kings have been enjoying a dream return to the Indian Premier League (IPL) fold. CSK won their first two games against Mumbai Indians and Kolkata Knight Riders off the penultimate ball of the match.
+    </a></div>
+
+<div id="saa14">
+  <a href="k111.html" style="text-decoration: none;">
+    <img src="ip3.jpg" width="198" height="180">
+    IPL Live Score updates, Royal Challengers Bangalore vs Rajasthan Royals, Match 11, Bengaluru A keen contest is on the cards as Royal Challengers Bangalore and Rajasthan Royals cross swords in the Indian Premier League at Chinnaswamy Stadium..
+  </a>
+</div>
+<div id="saa15">
+  <a href="k111.html" style="text-decoration: none;">
+    <img src="ip4.jpg" width="198" height="180">
+    IPL 2018: Sunrisers Hyderabad cruise to first win at Eden Gardens KOLKATA: Sunrisers Hyderabad recorded their first IPL win at the Eden Gardens with absolute ease when they beat Kolkata Knight Riders by five wickets here on Saturday..
+  </a></div>
+  <div id="saa16">
+
+  <a href="k111.html" style="text-decoration: none;">
+    <img src="ip5.jpg" width="198" height="180">IPL 2018: Karthik faces big test as KKR takes on Gambhir-led DD Skipper Dinesh Karthik will face a big test when a struggling Kolkata Knight Riders lock horns with a resurgent Delhi Daredevils, led by double title winning former KKR skipper Gautam ...
+  </a></div>
+  <div id="foot">
+    <div>
+      <table style="color: white; width: 300px;float: left;margin-left: 50px">
+        <tr>
+          <td><a href="https://www.youtube.com/results?search_query=english+breaking+news" id="ak">Breaking News</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.facebook.com/BreakingNews/" id="ak">FB News</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.cricbuzz.com/cricket-match/live-scores" id="ak">Online IPL score</a></td>
+        </tr> 
+        <tr>
+          <td><a href="edu.html" id="ak">Education</a></td>
+        </tr>                                     
+      </table>
+    </div>
+    <div>
+      <table style="color: white;width: 300px;float: left;">
+        <tr>
+          <td><a href="modi.html" id="ak">India Today</a></td>
+        </tr>
+        <tr>
+          <td><a href="bus.html" id="ak">Business</a></td>
+        </tr>
+        <tr>
+          <td><a href="sp.html" id="ak">Sports</a></td>
+        </tr> 
+        <tr>
+          <td><a href="icc.html" id="ak">IPL:2018</a></td>
+        </tr>
+                                             
+      </table>
+    </div>
+    <div>
+      <table style="color: white;width: 300px;float: left;">
+        <tr>
+          <tr>
+          <td><a href="fa.html" id="ak">Science</a></td>
+        </tr>
+      
+        <tr>
+          <td><a href="boll.html" id="ak">Bollywood News</td>
+        </tr>
+        <tr>
+          <td><a href="poli.html" id="ak">Politics</a></td>
+        </tr> 
+        <tr>
+          <td><a href="upp.html" id="ak">Mahanagar News</a></td>
+        </tr>
+                                           
+      </table>
+    </div>
+  <div>
+      <table style="color: white;width: 300px;float: left;">
+          <tr>
+          <td><a href="deli.html" id="ak">Delhi</a></td>
+        </tr>
+        <tr>
+          <td><a href="k1.html" id="ak">Technology</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://blogs.timesofindia.indiatimes.com/?utm_source=TOInewHP_TILwidget&utm_campaign=TOInewHP&utm_medium=widget_Head" id="ak">Blogs</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.workjoke.com/journalists-jokes.html" id="ak">Jokes</a></td>
+        </tr> 
+                                             
+      </table>
+    </div>
+
+</body>
+
+	<script>
+	var index = 1;
+        function plusindex(n)
+        {
+            index=index+n;
+            showimage(index);
+
+        }
+        showimage(1);
+	function showimage(n) {
+		  var i;
+          var x = document.getElementsByClassName("slide");
+          if (n>13) {index=1};
+          	if (n<1) {index=13};
+          	for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+        x[index-1].style.display = "block";
+         }
+     
+         autoslide();
+        function autoslide()
+        {   var i;
+            var x = document.getElementsByClassName("slide"); 
+            for (i=0;i<x.length;i++) {
+                x[i].style.display = "none" ;
+          	} 
+            if(index > x.length) { index=1 }
+            x[index-1].style.display = "block";
+            index++;
+            setTimeout(autoslide,3000);
+        }
+
+        
+</script>
+</html>
